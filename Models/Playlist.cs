@@ -12,5 +12,5 @@ public string? Id {get;set;}
 public string Username {get;set;}=null!;
 [BsonElement("items")]
 [JsonPropertyName("items")]
-public List<string> movieIds {get;set;} = null!;
+public List<string> MovieIds {get;set;} = null!;
 }
